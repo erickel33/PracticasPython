@@ -17,7 +17,7 @@ height = int(input("Ingresa tu altura"))
 if height == "":
     print("Campo invalido")
 
-try:
-    imc = weight / height **2
-except:
-    print ( "Hola su IMC es " + str(imc))
+
+imc = weight / height **2
+
+print ( "Hola su IMC es " + str(imc))
